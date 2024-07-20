@@ -5,6 +5,7 @@
 - [About](#about)
 - [How it works](#how-it-works)
 - [Usage](#usage)
+- [Analysis](#analysis)
 
 ## About
 
@@ -36,6 +37,10 @@ Options:
 ```
 
 If `-k` is omitted, the default key is used. The default key simply maps each char to its value.
+
+## Analysis
+
+I did some experiments encrypting English text and MP4 video with RENSA using different keys. The results are shown in [this notebook](rensa_analysis.ipynb).
 
 ---
 
